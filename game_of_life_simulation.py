@@ -69,11 +69,11 @@ if __name__ == "__main__":
             break
 
     CHOICES = ".X"
-    WEIGHTS = [0.5, 0.5]  # change it if you do not want the probs equal
-    COLS = 120
+    WEIGHTS = [0.8, 0.2]  # change it if you do not want the probs equal
+    COLS = 80
     ROWS = 30
 
-    _SLEEP_TIME = 0
+    _SLEEP_TIME = 0.12
     ITERATIONS = 2000
     if _RANDOMNESS == 1:
         state = [
