@@ -1,4 +1,5 @@
 from collections import namedtuple, defaultdict
+import random
 import time
 
 Cell = namedtuple("Cell", ["x", "y"])
@@ -55,10 +56,41 @@ def boardToString(board, pad=0):
 
 
 if __name__ == "__main__":
-    f = generateBoard(
-        "...XX...X.\nXX.XX.....\n.X.XX..XXX\n.X.XX..XXX\n.X.XX..XXX\n.X.XX..XXX"
-    )
-    for _ in range(2000):
+    while True:
+        try:
+            _RANDOMNESS = int(input("Say Yes(1) or No(0) to Randomness: \n\n  >"))
+            if _RANDOMNESS == 1 or _RANDOMNESS == 0:
+                break
+            else:
+                raise TypeError
+        except:
+            print("\nChoose 1 or 0.")
+        else:
+            break
+
+    CHOICES = ".X"
+    WEIGHTS = [0.5, 0.5]  # change it if you do not want the probs equal
+    COLS = 120
+    ROWS = 30
+
+    _SLEEP_TIME = 0
+    ITERATIONS = 2000
+    if _RANDOMNESS == 1:
+        state = [
+            "".join(random.choices(CHOICES, weights=WEIGHTS, k=COLS))
+            for _ in range(ROWS)
+        ]
+        state = "\n".join(state)
+    else:
+        state = """...XX...X.
+        XX.XX.....
+        .X.XX..XXX
+        .X.XX..XXX
+        .X.XX..XXX
+        .X.XX..XXX
+        """
+    f = generateBoard(state)
+    for _ in range(ITERATIONS):
         f = advanceBoard(f)
         print("\033[2J\033[1;1H" + boardToString(f, 2))
-        time.sleep(0.22)
+        time.sleep(_SLEEP_TIME)
