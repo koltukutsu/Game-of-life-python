@@ -33,7 +33,6 @@
 |**Light-weight Spaceship (LWSS)**|![Light_weight_spaceship](https://upload.wikimedia.org/wikipedia/commons/3/37/Game_of_life_animated_LWSS.gif)|
 |**Middle-weight Spaceship**|![Middle_weight_spaceship](https://upload.wikimedia.org/wikipedia/commons/4/4e/Animated_Mwss.gif)|
 |**Heavy-weight Spaceship**|![Heavy_weight_spaceship](https://upload.wikimedia.org/wikipedia/commons/4/4f/Animated_Hwss.gif)|
-| 
 - [Source] (https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life#Examples_of_patterns)
 
 ## ToDo
