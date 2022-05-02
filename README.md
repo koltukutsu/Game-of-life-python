@@ -4,7 +4,7 @@
 - [Still Lifes](#still-lifes)
 - [Oscillators](#oscillators)
 - [Spaceships](#spaceships)
-#### - [ToDo](#todo-1)
+#### [ToDo](#todo-1)
 
 <a name="still-lifes"></a>
 ## Still Lifes
