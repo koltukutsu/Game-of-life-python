@@ -4,6 +4,7 @@
 - [Still Lifes](#still-lifes)
 - [Oscillators](#oscillators)
 - [Spaceships](#spaceships)
+## [ToDo](#todo)
 
 <a name="still-lifes"></a>
 ## Still Lifes
@@ -38,6 +39,6 @@
 ## ToDo
 - [x] Add randomness for the live and the dead states
 - [x] Add time variables for iterations/steps 
-- [ ] Instead of just printing, use tui
+- [ ] Instead of just printing, use a tui
     - [ ] Create a menu to have differnet configurations
 - [ ] Use different colors for the dead states and the live states
