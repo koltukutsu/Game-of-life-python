@@ -2,8 +2,7 @@
 ### Implementation in Python
 
 ## Examples of Patterns
-[] (#still lifes)
-
+## heading<a name="headin"></a>
 |  |Still lifes |
 | ---| --- |
 |**Block**|![block](https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Game_of_life_block_with_border.svg/132px-Game_of_life_block_with_border.svg.png)|
@@ -12,6 +11,7 @@
 |**Boat**|![Boat](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Game_of_life_boat.svg/164px-Game_of_life_boat.svg.png)|
 |**Tub**|![Tub](https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Game_of_life_flower.svg/164px-Game_of_life_flower.svg.png)|
 
+
 || Oscillators |
 | ---| --- |
 |**Blinker (period 2)**|![Blinker](https://upload.wikimedia.org/wikipedia/commons/9/95/Game_of_life_blinker.gif)|
@@ -19,6 +19,7 @@
 |**Beacon (period 2)**|![Beacon](https://upload.wikimedia.org/wikipedia/commons/1/1c/Game_of_life_beacon.gif)|
 |**Pulsar (period 3)**|![Pulsar](https://upload.wikimedia.org/wikipedia/commons/0/07/Game_of_life_pulsar.gif)|
 |**Penta-Decathlon (period 15)**|![PentaDecathlon](https://upload.wikimedia.org/wikipedia/commons/f/fb/I-Column.gif)|
+
 
 ||Spaceships |
 | ---| --- |
