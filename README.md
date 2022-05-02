@@ -2,8 +2,7 @@
 ### Implementation in Python
 
 ## Examples of Patterns
-## heading<a name="headin"></a>
-|  |Still lifes |
+|  |Still lifes | <a name="still_lifes"></a>
 | ---| --- |
 |**Block**|![block](https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Game_of_life_block_with_border.svg/132px-Game_of_life_block_with_border.svg.png)|
 |**Beehive**|![Beehive](https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Game_of_life_beehive.svg/196px-Game_of_life_beehive.svg.png)|
