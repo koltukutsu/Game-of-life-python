@@ -41,4 +41,5 @@
 - [x] Add time variables for iterations/steps 
 - [ ] Instead of just printing, use a tui
     - [ ] Create a menu to have differnet configurations
+    - [ ] Use Textual / if the library is not ready, use Curses instead
 - [ ] Use different colors for the dead states and the live states
